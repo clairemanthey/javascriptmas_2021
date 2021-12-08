@@ -1,0 +1,106 @@
+:root {
+  --wine-red: #C7375F;
+  --bright-red: #D42D2F;
+  --dark-green: #344D2F;
+  --light-green: #77A047;
+  --gold: #FAC57D;
+  --snow: #F0F4F7;
+  --jungle-green: #081C15;
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: var(--dark-green);
+    background-color: var(--snow);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.body-christmas{
+    background-color: rgba(52, 77, 47, 0.2);
+}
+
+.body-paddysday{
+    background-color: #F2FFD1;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;    
+    padding: 0 2em 1rem 2rem;
+    border-radius: 5rem;
+    height: 45vh;
+    width: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+
+.christmas-container {
+    background: var(--wine-red);
+    color: var(--snow);
+    border: 5px solid var(--gold);
+    color: var(--gold);
+}
+
+.paddyContainer{
+    background-color: var(--jungle-green);
+    color: var(--light-green);
+    border: 5px solid var(--light-green);
+}
+
+
+.countdown-text{
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size:  2.5rem;
+
+}
+
+.christmas-text{
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size:  2rem;
+    color: var(--dark-green);
+}
+
+.linkP{
+    text-decoration: none;
+    color: var(--bright-red);
+
+}
+
+.linkC{
+    text-decoration: none;
+    color: var(--light-green);
+
+}
+
+.paddysday{
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size:  2.5rem;    
+    color: var(--light-green);
+}
+
+.paddysday-link{
+    color: var(--light-green);
+}
+
+.christmas-link{
+    color: var(--bright-red);
+}
