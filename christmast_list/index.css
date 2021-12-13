@@ -1,0 +1,107 @@
+:root {
+  --wine-red: #C7375F;
+  --bright-red: #D42D2F;
+  --dark-green: #344D2F;
+  --light-green: #77A047;
+  --gold: #FAC57D;
+  --snow: #F0F4F7;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: var(--snow);
+    background-color: var(--wine-red);
+}
+
+.title{
+    font: 2.75rem bold, sans-serif;
+    color: var(--gold);
+
+}
+
+.buy{
+    font-family: sans-serif;
+    color: var(--wine-red);
+}
+
+.checklist {
+    color: var(--dark-green);
+    font-size:  1.75rem;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 30rem;
+    background: var(--snow);
+    padding: 1em 2em;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.checklist-item {
+    margin: 0.5em;
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+}
+
+.input{
+    margin: -2rem 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=checkbox]:checked + label.strikethrough{
+  text-decoration: line-through;
+  font-weight: normal;
+}
+
+#userInput{
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+
+#list-items{
+    margin:  0 0 -1.75rem 0;
+
+}
+
+ul{
+
+}
+/*  Buttons  */
+
+.addBtn{
+    border: none;
+}
+
+.addBtn:hover{
+    cursor: pointer;
+}
+
+.minusBtn{
+    border: none;
+    color: var(--wine-red);
+}
+
+minusBtn:hover{
+    cursor: pointer;
+}
