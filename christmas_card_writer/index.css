@@ -1,0 +1,76 @@
+:root {
+  --wine-red: #C7375F;
+  --bright-red: #D42D2F;
+  --dark-green: #344D2F;
+  --light-green: #77A047;
+  --gold: #FAC57D;
+  --snow: #F0F4F7;
+}
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--wine-red);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+}
+
+.card {
+    width: 40rem;
+    height: 35rem;
+    border-radius: 5px;
+    background: var(--snow);
+    text-align: center;
+    padding: 0.5em;
+    position: relative;
+    margin-bottom: 1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.btn {
+    border: none;
+    background-color: var(--gold);
+    padding: 1em 1.5em;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin: 0.5rem auto;
+}
+
+.btn:hover {
+    cursor: pointer;
+    border: 2px solid var(--dark-green);
+}
+
+input{
+    font-size: 1.5rem;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 0 2rem 0;
+    justify-content: center;
+}
+
+.names{
+    margin: 0 1.5rem;
+    font-size: 1.75rem;
+}
+
+.card-content{
+    font-size: 4rem;
+}
+
+.decoration{
+    font-size:  4rem;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Christmas Card Writer</title>
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <div class="inputs">
+      <div class="names">	
+        <label for="input-to">To: </label>
+        <input type="text" id="input-to"/>
+      </div>
+      <div class="names">
+        <label for="input-from">From: </label>
+        <input type="text" id="input-from"/>
+      </div>
+    </div>
+
+    <div class="card" id="card">
+      <div id="decorationsOne" class="decoration"></div>
+      <p id="to-name" class="card-content" ></p>
+      <p id="greeting-display" class="card-content"></p>
+      <p id="from-name" class="card-content"></p>
+      <div id="decorationsTwo" class="decoration"></div>
+    </div>
+    <button id="btn" class="btn">Write card</button>
+
+  </body>
+
+</html>
