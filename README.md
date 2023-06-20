@@ -1,6 +1,8 @@
 #  JavaScriptmas 2021
 Daily Christmas themes challenges from [Scrimba](https://scrimba.com/)
 
+![My Image](image.png)
+
 # Live Site
 [JavaScriptmas 2021](https://scrimba.com/scrim/cDzJ68Uv)
 
